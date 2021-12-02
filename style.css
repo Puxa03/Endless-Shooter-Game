@@ -1,0 +1,43 @@
+body{
+    margin:1rem;
+    background-color: #2C2F33;
+    text-align: center;
+    position: relative;
+}
+#mycanvas{
+    background-color:  #23272A;    
+    border-style: solid;
+    border-width: 5px;
+    display: inline;
+    
+}
+
+#pointsDisplay{
+    margin-top: 0px;
+    position: absolute;
+    top: 3rem;
+    border-style: solid;
+    border-width: 5px;
+    padding:10px;
+}
+
+#guide{
+    margin-top: 0px;
+    top: 7rem;
+    padding:10px;
+}
+
+.menuItem{
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-user-select: none;     
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none; 
+    background-color:  #23272A;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(240, 221, 221);
+    position: absolute;
+}
