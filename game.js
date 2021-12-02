@@ -173,9 +173,9 @@ const EnemyballColor="#0095BD";
 const BulletColor="#e31445";
 
 const AbilityAtEvery=100
+const AbilityDuration=4
 const EnemyInitialShootSpeed=1300;
 const SpeedUpMultiplier=3.5;
-
 
 var Bullets=new Array();
 var EnemyBalls=new Array();
@@ -308,7 +308,7 @@ document.onkeydown = function(event) {
         delay=20;
         var startTime = new Date().getTime();
         var interval = setInterval(function(){
-            if(new Date().getTime() - startTime > 4000 || !gameIsRunning){
+            if(new Date().getTime() - startTime > AbilityDuration*1000 || !gameIsRunning){
                 clearInterval(interval);
                 return;
             }
