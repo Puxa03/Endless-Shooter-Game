@@ -172,7 +172,7 @@ const ShipColor="#eb1346";
 const EnemyballColor="#0095BD";
 const BulletColor="#e31445";
 
-const AbilityAtEvery=20
+const AbilityAtEvery=100
 const EnemyInitialShootSpeed=1300;
 const SpeedUpMultiplier=3.5;
 
